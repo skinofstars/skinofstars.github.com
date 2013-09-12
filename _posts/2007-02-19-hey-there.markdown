@@ -1,0 +1,21 @@
+---
+layout: post
+title: Hey there
+categories:
+- Oxford
+tags:
+- google
+- harcourt hill
+- snow
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+---
+Hey, hope everyone out there in bloggerland is ok. Life is still fun up here in Oxford. We had proper snow the other week and we all got trapped on the hill we live on, so we had a mass snowball fight with about 50 people. Its nice being on the little campus that the main uni forgets about. We're like a big family. :)
+
+Thought I'd give nay of you reading this a link to help you get a better understanding as to <a href="http://www.google.com/technology/pigeonrank.html">how Google does it</a>.
+
+Take care.

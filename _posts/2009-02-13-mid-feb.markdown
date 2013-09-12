@@ -1,0 +1,15 @@
+---
+layout: post
+title: Mid Feb
+categories:
+- Media
+tags:
+- twitter
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+---
+Hey all. Not much going on here, lots of homework but nothing of more general interest. Erm, <a href="http://twitter.com/skinofstars">follow me on twitter!</a>

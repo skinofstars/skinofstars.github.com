@@ -1,0 +1,16 @@
+---
+layout: post
+title: ''
+categories:
+- Internet
+tags:
+- ramsgate
+- wikipedia
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+---
+The Wikipedia articles of <a href="http://en.wikipedia.org/wiki/Ramsgate">Ramsgate</a> and <a href="http://en.wikipedia.org/wiki/Margate%2C_Kent">Margate</a> have been recommended for the Wikipedia CD Selection. At the moment, the seclection only has just over 2000 atricles on it. So it's pretty neat for our local towns to be chosen out of 1,291,557 english language articles (02/08/06).<br /><br />The problem is that the articles need more work. I know Adem of the Big Blog has been doing some work on the Ramsgate page, posting a gallery, etc. But the two articles need alot more work. For example, the Ramsgate article states Gary Pallister as the most notable resident (he played for Middlesbrough once), yet totally neglects to mention Van Gough.<br /><br />Please visit the pages and do what you can to help.

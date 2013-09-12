@@ -1,0 +1,14 @@
+---
+layout: post
+title: 1% Rule
+categories:
+- Internet
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+---
+I found an interesting article on the amount of people that actually participate in web content:<br /><br /><a href="http://technology.guardian.co.uk/weekly/story/0,,1823959,00.html">Guardian Unlimited Technology | Technology | What is the 1% rule?</a><br /><p>The summary would be something like this. For every hundred people who view a social site (eg wikipedia, blogger etc), 1 will create content, 10 will comment or add content, 89 wil just read. I hope this makes those of you who worry about the lack of comments or input on your blogs makes you feel a little better. </p><p>So, like <a href="http://ramsgatetourettes.blogspot.com/2006/07/blog-potatoes.html">Lucy Mail said in this blog post</a>, don't worry about the fly catching audience, just power on<br /><br /></p>

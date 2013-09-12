@@ -1,0 +1,35 @@
+---
+layout: post
+title: EeeK!
+categories:
+- Linux
+tags:
+- eeepc
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+---
+Firstly, my apologies for missing last weeks post. I was having a delightful holiday in Italy with various members of my family and the g/f. Lovely it was, we stayed in a <a href="http://en.wikipedia.org/wiki/Trullo">Trullo</a> and a fun time was had by all.
+
+Before I left I got myself a new computer, a netbook of the EeePC 901 variety. After consideration of the various flavours of netbook available (Acer One, MSI, different types of eee)I carefully selected this for the following reasons: a) Atom Processor, I saw little point in getting another Celeron as I would want this for working and so to have at least a little bit of spunk. b) 20GB SSD, you get more hard drive space if you select.. c) Linux pre-installed. I guess it was obvious I was going to get a Linux version, I see no point in paying more money for lower quality equipment just to have XP, especially if I'm just going to remove it anyway.
+
+As <a href="http://bignewsmargate.blogspot.com">Tony</a> has previously pointed out, these machines come with a restricted user interface (they are for newbies after all). So with the machine barely out of its box it was time to start nudging and adjusting. Here's what we want to do: add more software, customise the interface in the normal mode and if we want to go further see how we can get a more traditional desktop.
+
+First thing you need is access to a terminal so you can use the command line. This would often be the very thing that people new to Linux would want to avoid, but if you want to feel like the machine is working for you rather than the other way around then a bit of time at the command line is just what the doctor orders. Fear not, there is nothing too demanding here, just press Ctrl+Alt+T. There, now isn't that hard to see?! One of the points of any Unix-like system is choice, there are many paths to follow that can get you to the same endpoint, in this instance the terminal offered (xterm) is very hard to see with the small screen. You can change it quite easily to the more user friendly konsole:
+<blockquote>sudo update-alternatives --config x-terminal-emulator</blockquote>
+Select konsole and the next time you Ctrl+Alt+T you'll get a terminal where you can adjust font size as well as the colour scheme.
+
+Now to have the choice of adding software. Xandros, who built the eee's distro, is based on Debian, and as such means there is a lot of software out there for it. We now have to add the repositories (a central server where all the software is held) to our list of sources. Grab your trusty terminal and enter the following to pull up a text editor
+<blockquote>sudo kwrite /etc/apt/sources.list</blockquote>
+Then add the following to the bottom of the file
+<blockquote>deb http://xnv4.xandros.com/xs2.0/u[kg-srv2 etch main contrib non-free</blockquote>
+Save and quit, then in terminal run
+<blockquote>sudo apt-get update</blockquote>
+After that you can install new software using the Synaptic package manager by typing
+<blockquote>sudo synaptic</blockquote>
+from the terminal.
+
+The problem now is that you can only access the programs you've installed by typing their name into the terminal. What you really want is to add icons to your usual interface. These will have to be added individually to a configuration file... but I think thats enough for one day. I'll post the method for that and how to get a full desktop later in the week. In the meantime I'd suggest having a browse through the <a href="http://wiki.eeepcuser.com">eeepc user wiki</a>.

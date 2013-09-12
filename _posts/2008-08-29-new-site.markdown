@@ -1,0 +1,18 @@
+---
+layout: post
+title: New Site
+categories:
+- Internet
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+---
+**UPDATE** Blog has now been imported to this site - now found here, on the front page!
+
+--
+
+New site as the old one bothered me for being so bad. The (currently inactive) blog can still be found at <a href="/blog">/blog</a> but will be integrated in time. Updates will probably be coming thick and fast, as is my want with new projects.

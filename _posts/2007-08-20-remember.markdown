@@ -1,0 +1,18 @@
+---
+layout: post
+title: remember
+categories:
+- Miscellanea
+tags:
+- inaccurate
+- mnemonic
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+---
+![http://en.wikipedia.org/wiki/Image:NewSolarSystem2.jpg](http://upload.wikimedia.org/wikipedia/en/thumb/5/5a/NewSolarSystem2.jpg/380px-NewSolarSystem2.jpg)
+
+*My Very Easy Method Just Speeds Up Naming Planets.*

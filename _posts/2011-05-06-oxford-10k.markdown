@@ -1,0 +1,13 @@
+---
+layout: post
+title: Oxford 10k
+categories:
+- Miscellanea
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+---
+I'm still very much a novice runner, having only been in training for a couple of months, and that's the first time in years! Still, I reckon I can do it in under an 1hr 10mins. 
