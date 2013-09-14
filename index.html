@@ -2,13 +2,75 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
+<section class="post col-lg-12">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="author">
+        <span class="date">{{ post.date | date: "%a %d %b %Y"  }}</span>
+    </p>
+    <div class="content">
 
-<h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+            {{ post.excerpt }}
+            <div class="more pull-right">
+                <a href="{{ post.url }}">more <i class="icon-hand-right"></i></a>
+            </div>
 
-{{ post.content}}
+    </div>
 
-
-<hr />
-
+</section>
 {% endfor %}
+
+
+<div class="col-lg-12">
+    <ul class="pager">
+
+    {% if paginator.previous_page %}
+        <li class="previous">
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Previous</a>
+        {% else %}
+            <a href="{{ paginator.previous_page_path }}">Previous</a>
+        {% endif %}
+        </li>
+    {% else %}
+        <li class="previous disabled">
+          <span>Previous</span>
+        </li>
+    {% endif %}
+
+<!--
+    {% if paginator.page == 1 %}
+        <li class="page disabled">
+            <span class="active">1 <span class="sr-only">(current)</span></span>
+        </li>
+    {% else %}
+        <li class="page">
+            <a href="/">1</a>
+        </li>
+    {% endif %}
+
+     {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+        <li class="page">
+            <span class="active">{{ count }} <span class="sr-only">(current)</span></span>
+        </li>
+        {% else %}
+        <li class="page">
+            <a href="/page/{{ count }}">{{ count }}</a>
+        </li>
+        {% endif %}
+    {% endfor %} -->
+
+
+    {% if paginator.next_page %}
+        <li class="next">
+            <a href="{{ paginator.next_page_path }}">Next</a>
+        </li>
+        {% else %}
+        <li class="next disabled">
+            <span>Next</span>
+        </li>
+    {% endif %}
+    </ul>
+</div>
+

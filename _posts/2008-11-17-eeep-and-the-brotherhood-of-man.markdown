@@ -41,7 +41,7 @@ So, let's assume we are brave and we are going on with the install. Most things 
 
 Now we have rebooted into our new Ubuntu system we need a little moding to make everything work just right. First and most importantly you need the [Array.org Kernel](http://www.array.org/ubuntu/index.html). There are instructions on the site as to how to get it. This will fix such things as WiFi, webcams and hotkeys. After that I recommend adjusting the layout to better suit the screen size. This is very easy to do by right-licking the panels and modifing to suit your needs. Here is mine:
 
-[img_assist|nid=149|title=eeep-dekstop|desc=|link=none|align=none|width=100|height=59]
+\[img_assist|nid=149|title=eeep-dekstop|desc=|link=none|align=none|width=100|height=59\]
 
 A quick recommendation of some things to avoid.
 * Don't use a specialist distro like ubunu-eee. I know it makes things look easy but you'll be in trouble if they stop supporting. Standard Ubuntu is stable and here to stay.

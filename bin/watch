@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Watch files for changes and perform an action.
+# Needs inotify-tools.
+
+function doAction {
+    lessc ./assets/style.less > ./assets/style.css;
+    # jekyll build;
+}
+
+
+while inotifywait -e close_write -r assets/style.less ; do
+    doAction
+done

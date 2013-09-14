@@ -1,3 +1,102 @@
-
-
+// kevin carmody - started 12th sept 2013
 @import 'bootstrap-3.0.0/less/bootstrap';
+
+@lightgrey: #cfcfcf;
+@grey: #3E4649;
+@darkgrey: #2E2F31;
+
+@green: #5CB78E;
+@green-d-10: darken(@green, 10%);
+@green-d-30: darken(@green, 30%);
+
+
+.container {
+    max-width: 730px;
+}
+
+body {
+    background: @darkgrey;
+    color: @lightgrey;
+    font-family: 'Cantarell', sans-serif;
+}
+
+a {
+    color: @green-d-10;
+}
+
+a:hover {
+    color: lighten(@green-d-10, 10%);
+    text-decoration: none;
+}
+
+.nav {
+    background-color: @grey;
+
+    .brand a {
+        color: @lightgrey;
+    }
+
+    .links {
+        li {
+            list-style-type: none;
+            float: right;
+            font-size: 2em;
+            padding-left: 20px;
+            padding-top: 20px;
+
+            a {
+                color: @lightgrey;
+            }
+
+        }
+    }
+}
+
+.post {
+    margin: 10px 0 40px;
+    // padding-bottom: 20px;
+
+    .author {
+        font-style: italic;
+    }
+    .content {
+
+    }
+    .more {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    &.post-single {
+        margn-bottom: 60px;
+    }
+}
+
+.pager {
+    .disabled > span {
+        background-color: @green-d-30;
+    }
+
+    li {
+        > a,
+        > span {
+            color: @lightgrey;
+            background-color: @green-d-10;
+            border-radius: 0;
+            border: none;
+        }
+
+        > a:hover {
+            background-color: @green-d-30;
+        }
+    }
+
+    .page a {
+        padding: 5px 2px;
+    }
+}
+
+.footer {
+    background-color: @grey;
+    padding: 20px 0 50px
+}

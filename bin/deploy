@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll build && rsync -avz --delete _site/ skinofstars@carmoaa1.miniserver.com:/home/skinofstars/public_html/skinofstars.com

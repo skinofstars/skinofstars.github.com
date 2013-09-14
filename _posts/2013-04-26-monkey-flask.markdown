@@ -10,8 +10,9 @@ published: true
 meta:
   _edit_last: '1'
   _wpas_done_all: '1'
+excerpt: So it turns out that in GCSE computing, they have to learn Python now. How wicked is that?! I've been helping out my girlfriend's cousin with hers and I've been having to quickly learn bits of Python on the fly so I can answer her questions. Here are some of my thoughts
 ---
-So it turns that in GCSE computing, they have to learn Python now. How wicked is that?! I've been helping out my girlfriend's cousin with hers and I've been having to quickly learn bits of Python on the fly so I can answer her questions. It's a pretty standard language, so it's just about getting the syntax and nomenclature right.
+So it turns out that in GCSE computing, they have to learn Python now. How wicked is that?! I've been helping out my girlfriend's cousin with hers and I've been having to quickly learn bits of Python on the fly so I can answer her questions. It's a pretty standard language, so it's just about getting the syntax and nomenclature right.
 
 While I've been there playing with Python, I thought I'd check out some of the web frameworks. I chucked up a little repo called <a href="https://github.com/skinofstars/monkey">Monkey</a> where I can try out <a href="http://flask.pocoo.org/">Flask</a>. If you haven't tried Flask, then I highly recommend it. It's got a real simple approach that allows you to throw a few pages together with little effort and you've got a small webapp.
 

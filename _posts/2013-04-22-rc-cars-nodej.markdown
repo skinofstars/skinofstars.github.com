@@ -12,6 +12,7 @@ meta:
   _edit_last: '1'
   _wpas_done_all: '1'
   _wp_old_slug: rc-cars
+excerpt: Wanna make your brain hurt? Try developing a hardware interfacing library for node.js...
 ---
 Wanna make your brain hurt? Try developing a hardware interfacing library for node.js.
 
@@ -28,5 +29,3 @@ Once the lib for controlling the cars was up and running, others started to get 
 Next up was to get a big hall, a load plywood and gaffer tape to make a track and we were racing!... Well, racing might be pushing it a bit. Most teams worked on autonomous control. Some doing edge detection and others using a marker system we'd set up. There were varying levels of success in so far as to how far around the course they got, but I haven't seen such an excited bunch of geeks in a long time.
 
 Of course, the library we made is available on github, I put it up under the JS Oxford account <a href="https://github.com/jsoxford/node-wirc">https://github.com/jsoxford/node-wirc</a> so if you fancy creating your own autonomous car with JavaScript, here's your chance. And if you want your own RC Cars hack day, give me a shout and I'll put one together for you.
-
-&nbsp;
