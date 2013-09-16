@@ -3210,17 +3210,29 @@ a:hover {
   color: #cfcfcf;
 }
 .post {
-  margin: 10px 0 40px;
+  margin: 10px 0;
 }
 .post .author {
   font-style: italic;
 }
 .post .more {
   font-size: 1.2em;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 .post.post-single {
   margn-bottom: 60px;
+}
+.post .btn {
+  border-radius: 0;
+  padding: 5px 14px;
+}
+.post .btn-default {
+  color: #2e2f31;
+  background-color: #459b74;
+  border: none;
+}
+.post .btn:hover {
+  background-color: #25553f;
 }
 .pager .disabled > span {
   background-color: #25553f;

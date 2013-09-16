@@ -53,8 +53,7 @@ a:hover {
 }
 
 .post {
-    margin: 10px 0 40px;
-    // padding-bottom: 20px;
+    margin: 10px 0;
 
     .author {
         font-style: italic;
@@ -64,11 +63,26 @@ a:hover {
     }
     .more {
         font-size: 1.2em;
-        margin-bottom: 10px;
+        margin: 20px 0;
     }
 
     &.post-single {
         margn-bottom: 60px;
+    }
+
+    .btn {
+        border-radius: 0;
+        padding: 5px 14px;
+    }
+
+    .btn-default {
+        color: @darkgrey;
+        background-color: @green-d-10;
+        border: none;
+    }
+
+    .btn:hover {
+        background-color: @green-d-30;
     }
 }
 

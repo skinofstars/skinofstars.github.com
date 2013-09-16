@@ -3,20 +3,17 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-<section class="post col-lg-12">
+<section class="post col-lg-12 clearfix">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p class="author">
         <span class="date">{{ post.date | date: "%a %d %b %Y"  }}</span>
     </p>
     <div class="content">
-
-            {{ post.excerpt }}
-            <div class="more pull-right">
-                <a href="{{ post.url }}">more <i class="icon-hand-right"></i></a>
-            </div>
-
+        {{ post.excerpt }}
     </div>
-
+    <div class="more pull-right btn-group btn-group-xs">
+        <a href="{{ post.url }}" class="btn btn-default">more</a>
+    </div>
 </section>
 {% endfor %}
 
