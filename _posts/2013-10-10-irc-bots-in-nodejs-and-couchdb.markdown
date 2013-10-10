@@ -4,7 +4,7 @@ title: IRC bots in Node.js, with CouchDB
 categories:
 - Machines
 tags: [irc, nodejs, couchdb]
-status: published
+status: publish
 type: post
 published: true
 meta: {}
