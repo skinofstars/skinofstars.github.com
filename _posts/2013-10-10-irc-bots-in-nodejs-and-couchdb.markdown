@@ -42,7 +42,7 @@ var irc = require('irc');
 
 // create and connect
 var client = new irc.Client('irc.freenode.net', 'skinofstars-bot', {
-    channels: ['test-skinofstars-bot']
+    channels: ['#test-skinofstars-bot']
 });
 
 // listen and log
