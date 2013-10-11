@@ -25,7 +25,7 @@ You can make a responding chatbot in just a handful of lines. First, create your
   "description": "A simple IRC bot",
   "main": "./index",
   "dependencies": {
-    "irc": "*",
+    "irc": "*"
   },
   "engines": {
     "node": "*"
@@ -37,13 +37,13 @@ This uses the [irc](https://npmjs.org/package/irc) lib in the npm repositories. 
 
 Then, create an `index.js` file with something like the following in it:
 
-```javascript
-// get lib
+<div class="highlight highlight-javascript">
+`
 var irc = require('irc');
 
 // create and connect
 var client = new irc.Client('irc.freenode.net', 'skinofstars-bot', {
-    channels: ['#test-skinofstars-bot']
+    channels: ['test-skinofstars-bot']
 });
 
 // listen and log
@@ -53,9 +53,9 @@ client.addListener('message', function (from, to, message) {
     console.log(from + ' => ' + to + ': ' + message);
 
     // outputs to the chat channel
-    client.say(from, "I just heard " + from + " speak");
-});
-```
+    client.say(from, 'I just heard ' + from + ' speak');
+});`
+</div>
 
 Assuming you have your Node setup, you can now just run `node index.js` and it'll connect to freenode as user skinofstars-bot, join the channel #test-skinofstars-bot and say a message every time anyone speaks... which will be pretty annoying!
 
