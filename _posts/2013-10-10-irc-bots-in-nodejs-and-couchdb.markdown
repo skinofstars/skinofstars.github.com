@@ -59,7 +59,7 @@ client.addListener('message', function (from, to, message) {
 
 Assuming you have your Node setup, you can now just run `node index.js` and it'll connect to freenode as user skinofstars-bot, join the channel #test-skinofstars-bot and say a message every time anyone speaks... which will be pretty annoying!
 
-So there we have a basic connect and response chatbot in few more than 25 lines of code.
+So there we have a basic connect and response chatbot in little more than 25 lines of code.
 
 Now let's get this fella logging to our db. I wanted a simple document store that would allow me to write in JS, end to end. For this project, I'm using [CouchDB](http://couchdb.apache.org/).
 
