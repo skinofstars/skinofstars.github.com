@@ -22,7 +22,7 @@ Languages
 
 * PHP
 * JavaScript
-* HTML / CSS
+* HTML/CSS
 * Ruby
 * Python
 * XSLT
@@ -34,7 +34,7 @@ Frameworks
 * Silex
 * Wordpress
 * Mediawiki
-* Phonegap / Cordova
+* Phonegap/Cordova
 * KnockoutJS
 * Ruby on Rails
 
