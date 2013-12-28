@@ -10,7 +10,7 @@ Hello, my name is Kevin and I've been working as a web developer full time since
 
 I'm one of those guys that loves this stuff. I develop sites through the day, I run geek events in the evenings and weekends, and I go home and relax by playing with new tech. 
 
-I've run several hack days, including ones for (http://www.rhok.org)[Random Hacks of Kindness] and the (http://opendataday.org)[Open Data Day]. I'm also a co-founder of (http://jsoxford.com)[JS Oxford].
+I've run several hack days, including ones for [Random Hacks of Kindness](http://www.rhok.org) and the [Open Data Day](http://opendataday.org). I'm also a co-founder of [JS Oxford](http://jsoxford.com).
 
 Of course, I did this as hobby before I even dreamed of it as a job. I was making sites for various community groups, running blogs and forums since as far back as 2001. I decided that I loved my hobby so much that I wanted to do it as a career, so I went to Brookes University where I got a 1st class BSc in Media Communications and Multimedia Systems. 
 
@@ -63,7 +63,7 @@ I spent 2010 to 2013 at one of the UK's leading web development agencies, where 
 
 Now I'm looking for some great projects to work on and interesting people work with. If you've got something in mind that you think I could help you with, then please get in contact and let me know about yourself and your work. 
 
-(mailto:kevin@skinofstars.com)[kevin@skinofstars.com]
+[kevin@skinofstars.com](mailto:kevin@skinofstars.com)
 
 
 
