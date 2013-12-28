@@ -59,7 +59,7 @@ Most of my time I have been working in an Agile development environment, where t
 
 I've also been fortunate enough to be acting lead developer on several large scale projects, handling work distribution in teams of 3-4 developers, liaising with other team leaders and defining the project's overall architecture.
 
-I spent 2010 to 2013 at one of the UK's leading web development agencies, where I have been lucky enough to work on some huge projects for some fantastic clients. However, I decided it was time to move on, starting with 4 months travelling around South East Asia and New Zealand to make sure I wasn't only thinking within the tech bubble.
+I spent 2010 to 2013 at one of the UK's leading web development agencies, where I was lucky enough to work on some huge projects for some fantastic clients. However, I decided it was time to move on, starting with 4 months travelling around South East Asia and New Zealand to make sure I wasn't only thinking within the tech bubble.
 
 Now I'm looking for some great projects to work on and interesting people work with. If you've got something in mind that you think I could help you with, then please get in contact and let me know about yourself and your work. 
 
