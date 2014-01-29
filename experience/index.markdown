@@ -6,7 +6,7 @@ status: publish
 type: page
 published: true
 ---
-Hello, my name is Kevin and I've been working as a web developer full time since 2010. 
+Hello, my name is Kevin and I've been working as a web developer full time since 2009. 
 
 I'm one of those guys that loves this stuff. I develop sites through the day, I run geek events in the evenings and weekends, and I go home and relax by playing with new tech. 
 
