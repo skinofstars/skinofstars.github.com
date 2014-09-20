@@ -2,11 +2,11 @@
 layout: post
 title: Wheedonverse, mapped using d3.js
 categories:
-- Miscellanea
-tags: []
+- Media
+tags: [d3, javascript]
 status: publish
 type: post
-published: false
+published: true
 meta: {}
 ---
 Man, I love the Wedonverse. All of it. Firefly, Dollhouse, Buffy... even Angel. I really like Firefly. So much so that I've made my (lovely) girlfriend watch Castle, just because it has Nathan Fillion in it. So I got to thinking, how much crossover is there with all these shows? What we need is some kind of node/edge graph :)
