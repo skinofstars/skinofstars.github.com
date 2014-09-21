@@ -9,7 +9,7 @@ type: post
 published: true
 meta: {}
 ---
-Despite some initial mis-givings, I really fell for Vagrant. Consistent repeatable develoment environments, what's not to love? Well, the mostly the lack of speed. There are tricks that help, like nfs, but a full VM is comparatively slow compared to running native. Also, though I try to keep things consistent, using provisioners like Ansible, there still seems to be some discrepencies between environments.
+Despite some initial misgivings, I really fell for Vagrant. Consistent repeatable develoment environments, what's not to love? Well, mostly the lack of speed. There are tricks that help, like nfs, but a full VM is comparatively slow compared to running native. Also, though I try to keep things consistent by using provisioners like Ansible, there still seems to be some discrepencies between environments. Maybe there is another way...
 
 I've heard great things about Docker's speed. There are also several services now offering Docker based deploys. So as part of a blog revivial (that time of year again) I thought I'd give it a go.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploying with Ansible
+title: Provisioning with Ansible
 categories:
 - Machines
 tags: [ansible, talks]
