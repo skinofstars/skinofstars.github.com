@@ -69,6 +69,9 @@ Now I'm looking for some great projects to work on and interesting people work w
 [kevin@skinofstars.com](mailto:kevin@skinofstars.com)
 
 
+Someone may like a good old fashioned CV.
+
+[Kevin_Carmody_CV.pdf](Kevin_Carmody_CV.pdf) - *last updated: 1st October 2014*
 
 
 
