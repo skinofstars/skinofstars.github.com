@@ -18,6 +18,9 @@
     />
     <link rel="stylesheet" type="text/css" href="/assets/style.css" />
     <link rel="shortcut icon" href="/assets/star-icon.png" />
+
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
   </head>
   <body>
     <div class="container">
@@ -94,21 +97,5 @@
       type="text/javascript"
       src="//platform.twitter.com/widgets.js"
     ></script>
-
-    <script type="text/javascript">
-      var _gaq = [["_setAccount", "UA-12736204-1"], ["_trackPageview"]];
-
-      (function (s) {
-        var ga = document.createElement(s);
-        ga.type = "text/java" + s;
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        s = document.getElementsByTagName(s)[0];
-        s.parentNode.insertBefore(ga, s);
-      })("script");
-    </script>
   </body>
 </html>
