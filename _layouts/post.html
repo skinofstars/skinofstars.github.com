@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<section class="post post-single col-lg-12">
-  <h2>{{page.title}}</h2>
+<article class="post post-single col-lg-12 h-entry">
+  <h2 class="p-name">{{page.title}}</h2>
 
-  {{ content }}
+  <div class="e-content">{{ content }}</div>
+
   <section>
     <section class="post col-lg-12">
       <div id="disqus_thread"></div>
@@ -36,4 +37,4 @@ layout: default
       >
     </section>
   </section>
-</section>
+</article>
