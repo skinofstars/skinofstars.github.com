@@ -1,6 +1,19 @@
-markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:title
 
 paginate: 10
 paginate_path: "page/:num"
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - category
+  layout: default
+  permalinks:
+    category: "/:category"
+# collections:
+#   categories:
+#     output: true
+#     permalink: /:categories
