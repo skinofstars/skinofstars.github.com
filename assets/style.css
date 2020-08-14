@@ -6,3 +6,32 @@
 .list-inline > li {
   display: inline;
 }
+
+.webmention-mention {
+  margin-top: 3em;
+  margin-right: 40px;
+  margin-bottom: 3em;
+  margin-left: 40px;
+  /* text-align: right; */
+}
+
+.webmention-author {
+  width: 55%;
+}
+
+.webmention-author img {
+  /* width: 50px; */
+  display: none;
+}
+
+.webmention-summary {
+  width: 55%;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.webmention-published {
+  width: 55%;
+}
