@@ -1,18 +1,18 @@
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+
 highlighter: rouge
 permalink: /:year/:month/:title
 
 paginate: 10
 paginate_path: "page/:num"
 
-plugins:
-  - jekyll-archives
-
 jekyll-archives:
-  enabled:
-    - category
+  enabled: all
   layout: default
-  permalinks:
-    category: "/:category"
+#   permalinks:
+#     category: "/:category"
 # collections:
 #   categories:
 #     output: true

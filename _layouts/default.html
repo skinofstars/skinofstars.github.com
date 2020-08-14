@@ -7,16 +7,18 @@
     <title>Skin of Stars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cantarell:400,700,400italic"
-      rel="stylesheet"
-      type="text/css"
-    />
+
     <link
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.tutorialjinni.com/tufte-css/1.7.2/tufte.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+
     <link rel="shortcut icon" href="/assets/star-icon.png" />
 
     <!-- IndieWeb -->
@@ -29,87 +31,61 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row nav">
-        <div class="col-xs-7">
-          <h1 class="brand">
-            <a href="/">Skin of Stars</a>
-          </h1>
-          <p>Machines, media &amp; miscellanea by Kevin Carmody</p>
-        </div>
+    <h1 class="brand">
+      Kevin Carmody: machines, media &amp; miscellanea
+    </h1>
+    <!-- <p class="subtitle">
+      <a href="/">Notes</a>, <a href="/">articles</a> and
+      <a href="/">links</a>
+    </p> -->
+    <div>
+      Elsewhere:
 
-        <div class="links col-xs-5">
-          <ul class="nav">
-            <li>
-              <a
-                href="https://twitter.com/skinofstars"
-                title="@skinofstars"
-                rel="me"
-                ><i class="icon-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                rel="me"
-                href="https://mastodon.social/@skinofstars"
-                title="@skinofstars@mastodon.social"
-                ><i class="icon-bullhorn"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/skinofstars"
-                rel="me"
-                title="skinofstars"
-                ><i class="icon-github"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="mailto:kevin@skinofstars.com"
-                rel="me"
-                title="kevin@skinofstars.com"
-                ><i class="icon-envelope"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row">
-        {{ content }}
-      </div>
-
-      <div class="row footer">
-        <div class="col-sm-2">
-          <!--Creative Commons License--><a
-            rel="license"
-            href="https://creativecommons.org/licenses/by-sa/2.0/uk/"
-            ><img
-              alt="Creative Commons License"
-              src="https://creativecommons.org/images/public/somerights20.png"
-              border="0"
-          /></a>
-        </div>
-        <div class="col-sm-10">
-          <p>
-            This work is licensed under a
-            <a
-              rel="license"
-              href="https://creativecommons.org/licenses/by-sa/2.0/uk/"
-              >Creative Commons Attribution-ShareAlike 2.0 England &amp; Wales
-              License</a
-            >.
-          </p>
-
-          <!--/Creative Commons License--><!-- <rdf:rdf xmlns="http://web.resource.org/cc/" dc="http://purl.org/dc/elements/1.1/" rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><br /> <work about=""><br />  <license resource="http://creativecommons.org/licenses/by-sa/2.0/uk/"><br /> <dc:type resource="http://purl.org/dc/dcmitype/Text"><br /> </work><br /> <license about="http://creativecommons.org/licenses/by-sa/2.0/uk/"><permits resource="http://web.resource.org/cc/Reproduction"><permits resource="http://web.resource.org/cc/Distribution"><requires resource="http://web.resource.org/cc/Notice"><requires resource="http://web.resource.org/cc/Attribution"><permits resource="http://web.resource.org/cc/DerivativeWorks"><requires resource="http://web.resource.org/cc/ShareAlike"></license></rdf:RDF> -->
-        </div>
-      </div>
+      <a
+        rel="me"
+        href="https://mastodon.social/@skinofstars"
+        title="@skinofstars@mastodon.social"
+        >Mastodon</a
+      >,
+      <a href="https://github.com/skinofstars" rel="me" title="skinofstars"
+        >Github</a
+      >,
+      <a
+        href="mailto:kevin@skinofstars.com"
+        rel="me"
+        title="kevin@skinofstars.com"
+        >Email</a
+      >
     </div>
 
-    <script
-      type="text/javascript"
-      src="//platform.twitter.com/widgets.js"
-    ></script>
+    <div class="row">
+      {{ content }}
+    </div>
+
+    <div class="row footer">
+      <div class="col-sm-2">
+        <!--Creative Commons License--><a
+          rel="license"
+          href="https://creativecommons.org/licenses/by-sa/2.0/uk/"
+          ><img
+            alt="Creative Commons License"
+            src="https://creativecommons.org/images/public/somerights20.png"
+            border="0"
+        /></a>
+      </div>
+      <div class="col-sm-10">
+        <p>
+          This work is licensed under a
+          <a
+            rel="license"
+            href="https://creativecommons.org/licenses/by-sa/2.0/uk/"
+            >Creative Commons Attribution-ShareAlike 2.0 England &amp; Wales
+            License</a
+          >.
+        </p>
+
+        <!--/Creative Commons License--><!-- <rdf:rdf xmlns="http://web.resource.org/cc/" dc="http://purl.org/dc/elements/1.1/" rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><br /> <work about=""><br />  <license resource="http://creativecommons.org/licenses/by-sa/2.0/uk/"><br /> <dc:type resource="http://purl.org/dc/dcmitype/Text"><br /> </work><br /> <license about="http://creativecommons.org/licenses/by-sa/2.0/uk/"><permits resource="http://web.resource.org/cc/Reproduction"><permits resource="http://web.resource.org/cc/Distribution"><requires resource="http://web.resource.org/cc/Notice"><requires resource="http://web.resource.org/cc/Attribution"><permits resource="http://web.resource.org/cc/DerivativeWorks"><requires resource="http://web.resource.org/cc/ShareAlike"></license></rdf:RDF> -->
+      </div>
+    </div>
   </body>
 </html>
