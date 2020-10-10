@@ -35,3 +35,7 @@
 .webmention-published {
   width: 55%;
 }
+
+.epilogue p {
+  font-size: 1rem;
+}

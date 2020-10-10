@@ -3,12 +3,59 @@ layout: default
 ---
 
 <article class="post post-single col-lg-12 h-entry">
-  {% if page.title != '' %}
-  <h2 class="p-name">{{page.title}}</h2>
+  {% if page.title %}
+  <h2 class="p-name">{{ page.title }}</h2>
+  {% endif %}
+
+  <time class="date dt-published" datetime="{{ page.date }}"
+    >{{ page.date | date: "%a %d %b %Y" }}</time
+  >
+
+  <!-- decide content type -->
+  {% if page.mf-bookmark %}
+  <p>
+    Bookmark:
+    <a
+      class="u-bookmark-of"
+      href="{{page.mf-bookmark | first}}"
+      rel="noopener noreferrer"
+      >{{page.u-bookmark-of}}</a
+    >
+  </p>
+  {% elsif page.mf-bookmark-of %}
+  <p>
+    Bookmark
+    <a
+      class="u-bookmark-of"
+      href="{{page.mf-bookmark-of | first}}"
+      rel="noopener noreferrer"
+      >{{page.title}}</a
+    >
+  </p>
+  {% elsif page.mf-repost-of %}
+  <a
+    class="u-repost-of"
+    href="{{page.mf-repost-of | first}}"
+    rel="noopener noreferrer"
+  >
+    {{page.mf-summary | first | markdownify}}
+  </a>
+
+  {% elsif page.mf-like-of %}
+  <a
+    class="u-like-of"
+    href="{{page.mf-like-of | first}}"
+    rel="noopener noreferrer"
+  >
+    {{page.mf-summary | first | markdownify}}
+  </a>
+
   {% endif %}
 
   <section class="e-content">{{ content }}</section>
 </article>
+
+<hr />
 
 <section>
   <h3>Webmentions</h3>

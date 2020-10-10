@@ -12,9 +12,48 @@ layout: default
     >{{ post.date | date: "%a %d %b %Y" }}</time
   >
 
-  <section class="p-summary">
-    {{ post.excerpt }}
-  </section>
+  <section class="p-summary">{{ post.excerpt }}</section>
+
+  <!-- decide content type -->
+  {% if post.mf-bookmark %}
+  <p>
+    Bookmark:
+    <a
+      class="u-bookmark-of"
+      href="{{post.mf-bookmark | first}}"
+      rel="noopener noreferrer"
+      >{{post.u-bookmark-of}}</a
+    >
+  </p>
+  {% elsif post.mf-bookmark-of %}
+  <p>
+    Bookmark
+    <a
+      class="u-bookmark-of"
+      href="{{post.mf-bookmark-of | first}}"
+      rel="noopener noreferrer"
+      >{{post.title}}</a
+    >
+  </p>
+  {% elsif post.mf-repost-of %}
+  <a
+    class="u-repost-of"
+    href="{{post.mf-repost-of | first}}"
+    rel="noopener noreferrer"
+  >
+    {{post.mf-summary | first | markdownify}}
+  </a>
+
+  {% elsif post.mf-like-of %}
+  <a
+    class="u-like-of"
+    href="{{post.mf-like-of | first}}"
+    rel="noopener noreferrer"
+  >
+    {{post.mf-summary | first | markdownify}}
+  </a>
+
+  {% endif %}
 
   <div class="more btn-group btn-group-xs">
     <a href="{{ post.url }}" class="btn btn-default">Read more</a>
