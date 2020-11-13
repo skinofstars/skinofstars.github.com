@@ -36,13 +36,16 @@ layout: default
     >
   </p>
   {% elsif post.mf-repost-of %}
-  <a
-    class="u-repost-of"
-    href="{{post.mf-repost-of | first}}"
-    rel="noopener noreferrer"
-  >
-    {{post.mf-summary | first | markdownify}}
-  </a>
+  <p>
+    Reposted:<br />
+    <a
+      class="u-repost-of"
+      href="{{post.mf-repost-of | first}}"
+      rel="noopener noreferrer"
+    >
+      {{post.mf-repost-of | first | markdownify}}
+    </a>
+  </p>
 
   {% elsif post.mf-like-of %}
   <a

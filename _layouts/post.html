@@ -33,13 +33,16 @@ layout: default
     >
   </p>
   {% elsif page.mf-repost-of %}
-  <a
-    class="u-repost-of"
-    href="{{page.mf-repost-of | first}}"
-    rel="noopener noreferrer"
-  >
-    {{page.mf-summary | first | markdownify}}
-  </a>
+  <p>
+    Reposted:<br />
+    <a
+      class="u-repost-of"
+      href="{{page.mf-repost-of | first}}"
+      rel="noopener noreferrer"
+    >
+      {{page.mf-repost-of | first | markdownify}}
+    </a>
+  </p>
 
   {% elsif page.mf-like-of %}
   <a
